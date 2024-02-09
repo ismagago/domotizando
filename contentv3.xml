@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
   <unicode value=""></unicode>
@@ -85,22 +85,150 @@
   <string role="key" value="_name"></string>
   <unicode value="domotizando"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="2"></int>
+  <int value="3"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="16"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
-   <instance class="exe.engine.node.Node" reference="5">
+   <instance class="exe.engine.node.Node" reference="3">
     <dictionary>
      <string role="key" value="_title"></string>
      <unicode value="Domotizando espacios con hard y soft libre"></unicode>
      <string role="key" value="idevices"></string>
-     <list></list>
+     <list>
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Domotizando espacios con hardware y software libre. Una propuesta didáctica."></unicode>
+        <string role="key" value="_attributes"></string>
+        <list>
+         <tuple>
+          <string value="title"></string>
+          <list>
+           <string value="Title"></string>
+           <int value="0"></int>
+           <int value="0"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="category"></string>
+          <list>
+           <string value="Category"></string>
+           <int value="0"></int>
+           <int value="1"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="css-class"></string>
+          <list>
+           <string value="CSS class"></string>
+           <int value="0"></int>
+           <int value="2"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="icon"></string>
+          <list>
+           <string value="Icon"></string>
+           <int value="0"></int>
+           <int value="3"></int>
+          </list>
+         </tuple>
+        </list>
+        <string role="key" value="_author"></string>
+        <string value=""></string>
+        <string role="key" value="_iDeviceDir"></string>
+        <string value="text"></string>
+        <string role="key" value="_purpose"></string>
+        <string value=""></string>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="_typeName"></string>
+        <unicode value="Text"></unicode>
+        <string role="key" value="_valid"></string>
+        <bool value="1"></bool>
+        <string role="key" value="class_"></string>
+        <unicode value="text"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="1"></int>
+        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+        <int value="1"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="2">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="220_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <string value=""></string>
+           <string role="key" value="_name"></string>
+           <string value=""></string>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Con el auge de la robótica, y la domótica en los centros docentes de secundaria, y en entornos domésticos, para la automatización de procesos, me parece de interés la presentación y descripción de un sistema dómotico basado en los dispositivos de hardware libre Home Assistant Yellow (&lt;a href=&quot;https://www.home-assistant.io/yellow/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.home-assistant.io/yellow/&lt;/a&gt;), Home Assistant blue (&lt;a href=&quot;https://www.home-assistant.io/blue/)&quot;&gt;https://www.home-assistant.io/blue/)&lt;/a&gt; y/o Raspberry, con sensores &lt;em&gt;&lt;strong&gt;zigbee&lt;/strong&gt;&lt;/em&gt;, y de coste asumible.&lt;/p&gt;
+&lt;p&gt;Todo ello controlado desde el ecosistema de software libre Home Assistant y el protocolo de comunicación abierto zigbee. Sistemas domóticos aplicables y utilizables tanto en entornos educativos como domésticos y  de coste asumible.&lt;/p&gt;
+&lt;p&gt;Propuesta de charla presentada al Congreso esLibre 2024.&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list></list>
+             <string role="key" value="idevice"></string>
+             <reference key="2"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="0"></int>
+           <string role="key" value="parentNode"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="ideviceCategory"></string>
+        <unicode value="Text and Tasks"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="1"></reference>
+     <reference key="4"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -115,13 +243,13 @@
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="4">
+      <instance class="exe.engine.node.Node" reference="7">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Hardware utilizado"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="2">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="5">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value=""></unicode>
@@ -182,12 +310,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="3">
+            <instance class="exe.engine.field.TextAreaField" reference="6">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="218_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="2"></reference>
+              <reference key="5"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -213,7 +341,7 @@
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="3"></reference>
+                <reference key="6"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -238,7 +366,7 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="4"></reference>
+           <reference key="7"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -253,7 +381,7 @@
         <string role="key" value="_id"></string>
         <unicode value="1"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="4"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -263,12 +391,12 @@
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado"></string>
         <string role="key" value="parent"></string>
-        <reference key="5"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="6">
+         <instance class="exe.engine.node.Node" reference="8">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="La unidad central o miniordenador"></unicode>
@@ -277,7 +405,7 @@
            <string role="key" value="_id"></string>
            <unicode value="6"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -287,12 +415,12 @@
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:La%20unidad%20central%20o%20miniordenador"></string>
            <string role="key" value="parent"></string>
-           <reference key="4"></reference>
+           <reference key="7"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list>
-            <instance class="exe.engine.node.Node" reference="17">
+            <instance class="exe.engine.node.Node" reference="19">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Home Assistant Yellow"></unicode>
@@ -301,7 +429,7 @@
               <string role="key" value="_id"></string>
               <unicode value="3"></unicode>
               <string role="key" value="_package"></string>
-              <reference key="1"></reference>
+              <reference key="4"></reference>
               <string role="key" value="anchor_fields"></string>
               <list></list>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -311,14 +439,14 @@
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:La%20unidad%20central%20o%20miniordenador:Home%20Assistant%20Yellow"></string>
               <string role="key" value="parent"></string>
-              <reference key="6"></reference>
+              <reference key="8"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
               <list></list>
               <string role="key" value="children"></string>
               <list></list>
              </dictionary>
             </instance>
-            <instance class="exe.engine.node.Node" reference="18">
+            <instance class="exe.engine.node.Node" reference="20">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Home Assistant Blue"></unicode>
@@ -327,7 +455,7 @@
               <string role="key" value="_id"></string>
               <unicode value="4"></unicode>
               <string role="key" value="_package"></string>
-              <reference key="1"></reference>
+              <reference key="4"></reference>
               <string role="key" value="anchor_fields"></string>
               <list></list>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -337,86 +465,7 @@
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:La%20unidad%20central%20o%20miniordenador:Home%20Assistant%20Blue"></string>
               <string role="key" value="parent"></string>
-              <reference key="6"></reference>
-              <string role="key" value="top_anchors_linked_from_fields"></string>
-              <list></list>
-              <string role="key" value="children"></string>
-              <list></list>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.node.Node" reference="19">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="RaspberryPi 4"></unicode>
-              <string role="key" value="idevices"></string>
-              <list></list>
-              <string role="key" value="_id"></string>
-              <unicode value="5"></unicode>
-              <string role="key" value="_package"></string>
-              <reference key="1"></reference>
-              <string role="key" value="anchor_fields"></string>
-              <list></list>
-              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exportType"></string>
-              <string value="website"></string>
-              <string role="key" value="last_full_node_path"></string>
-              <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:La%20unidad%20central%20o%20miniordenador:RaspberryPi%204"></string>
-              <string role="key" value="parent"></string>
-              <reference key="6"></reference>
-              <string role="key" value="top_anchors_linked_from_fields"></string>
-              <list></list>
-              <string role="key" value="children"></string>
-              <list></list>
-             </dictionary>
-            </instance>
-           </list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="7">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Los sensores y actuadores"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="7"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores"></string>
-           <string role="key" value="parent"></string>
-           <reference key="4"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list>
-            <instance class="exe.engine.node.Node" reference="20">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="Enchufes inteligentes"></unicode>
-              <string role="key" value="idevices"></string>
-              <list></list>
-              <string role="key" value="_id"></string>
-              <unicode value="8"></unicode>
-              <string role="key" value="_package"></string>
-              <reference key="1"></reference>
-              <string role="key" value="anchor_fields"></string>
-              <list></list>
-              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exportType"></string>
-              <string value="website"></string>
-              <string role="key" value="last_full_node_path"></string>
-              <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores:Enchufes%20inteligentes"></string>
-              <string role="key" value="parent"></string>
-              <reference key="7"></reference>
+              <reference key="8"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
               <list></list>
               <string role="key" value="children"></string>
@@ -426,13 +475,92 @@
             <instance class="exe.engine.node.Node" reference="21">
              <dictionary>
               <string role="key" value="_title"></string>
+              <unicode value="RaspberryPi 4"></unicode>
+              <string role="key" value="idevices"></string>
+              <list></list>
+              <string role="key" value="_id"></string>
+              <unicode value="5"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="4"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list></list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:La%20unidad%20central%20o%20miniordenador:RaspberryPi%204"></string>
+              <string role="key" value="parent"></string>
+              <reference key="8"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list></list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+           </list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="9">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Los sensores y actuadores"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores"></string>
+           <string role="key" value="parent"></string>
+           <reference key="7"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list>
+            <instance class="exe.engine.node.Node" reference="22">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Enchufes inteligentes"></unicode>
+              <string role="key" value="idevices"></string>
+              <list></list>
+              <string role="key" value="_id"></string>
+              <unicode value="8"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="4"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list></list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores:Enchufes%20inteligentes"></string>
+              <string role="key" value="parent"></string>
+              <reference key="9"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list></list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.node.Node" reference="23">
+             <dictionary>
+              <string role="key" value="_title"></string>
               <unicode value="Termómetro e Higrómetro"></unicode>
               <string role="key" value="idevices"></string>
               <list></list>
               <string role="key" value="_id"></string>
               <unicode value="9"></unicode>
               <string role="key" value="_package"></string>
-              <reference key="1"></reference>
+              <reference key="4"></reference>
               <string role="key" value="anchor_fields"></string>
               <list></list>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -442,59 +570,7 @@
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores:Term%C3%B3metro%20e%20Higr%C3%B3metro"></string>
               <string role="key" value="parent"></string>
-              <reference key="7"></reference>
-              <string role="key" value="top_anchors_linked_from_fields"></string>
-              <list></list>
-              <string role="key" value="children"></string>
-              <list></list>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.node.Node" reference="12">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="Sensor infrarrojo con medidor de Temperatura y Humedad"></unicode>
-              <string role="key" value="idevices"></string>
-              <list></list>
-              <string role="key" value="_id"></string>
-              <unicode value="10"></unicode>
-              <string role="key" value="_package"></string>
-              <reference key="1"></reference>
-              <string role="key" value="anchor_fields"></string>
-              <list></list>
-              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exportType"></string>
-              <string value="website"></string>
-              <string role="key" value="last_full_node_path"></string>
-              <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores:Sensor%20infrarrojo%20con%20medidor%20de%20Temperatura%20y%20Humedad"></string>
-              <string role="key" value="parent"></string>
-              <reference key="7"></reference>
-              <string role="key" value="top_anchors_linked_from_fields"></string>
-              <list></list>
-              <string role="key" value="children"></string>
-              <list></list>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.node.Node" reference="13">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="Termostato"></unicode>
-              <string role="key" value="idevices"></string>
-              <list></list>
-              <string role="key" value="_id"></string>
-              <unicode value="11"></unicode>
-              <string role="key" value="_package"></string>
-              <reference key="1"></reference>
-              <string role="key" value="anchor_fields"></string>
-              <list></list>
-              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exportType"></string>
-              <string value="website"></string>
-              <string role="key" value="last_full_node_path"></string>
-              <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores:Termostato"></string>
-              <string role="key" value="parent"></string>
-              <reference key="7"></reference>
+              <reference key="9"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
               <list></list>
               <string role="key" value="children"></string>
@@ -504,13 +580,65 @@
             <instance class="exe.engine.node.Node" reference="14">
              <dictionary>
               <string role="key" value="_title"></string>
+              <unicode value="Sensor infrarrojo con medidor de Temperatura y Humedad"></unicode>
+              <string role="key" value="idevices"></string>
+              <list></list>
+              <string role="key" value="_id"></string>
+              <unicode value="10"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="4"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list></list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores:Sensor%20infrarrojo%20con%20medidor%20de%20Temperatura%20y%20Humedad"></string>
+              <string role="key" value="parent"></string>
+              <reference key="9"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list></list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.node.Node" reference="15">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Termostato"></unicode>
+              <string role="key" value="idevices"></string>
+              <list></list>
+              <string role="key" value="_id"></string>
+              <unicode value="11"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="4"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list></list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores:Termostato"></string>
+              <string role="key" value="parent"></string>
+              <reference key="9"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list></list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.node.Node" reference="16">
+             <dictionary>
+              <string role="key" value="_title"></string>
               <unicode value="Motores"></unicode>
               <string role="key" value="idevices"></string>
               <list></list>
               <string role="key" value="_id"></string>
               <unicode value="12"></unicode>
               <string role="key" value="_package"></string>
-              <reference key="1"></reference>
+              <reference key="4"></reference>
               <string role="key" value="anchor_fields"></string>
               <list></list>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -520,7 +648,7 @@
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Hardware%20utilizado:Los%20sensores%20y%20actuadores:Motores"></string>
               <string role="key" value="parent"></string>
-              <reference key="7"></reference>
+              <reference key="9"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
               <list></list>
               <string role="key" value="children"></string>
@@ -533,16 +661,16 @@
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="11">
+      <instance class="exe.engine.node.Node" reference="13">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Softwre utilizado"></unicode>
+        <unicode value="Software utilizado"></unicode>
         <string role="key" value="idevices"></string>
         <list></list>
         <string role="key" value="_id"></string>
         <unicode value="2"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="4"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -550,20 +678,20 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Softwre%20utilizado"></string>
+        <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Software%20utilizado"></string>
         <string role="key" value="parent"></string>
-        <reference key="5"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="10">
+         <instance class="exe.engine.node.Node" reference="12">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Home Assistant"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="10">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value=""></unicode>
@@ -624,12 +752,12 @@
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="9">
+               <instance class="exe.engine.field.TextAreaField" reference="11">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="219_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
+                 <reference key="10"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -654,7 +782,7 @@
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="9"></reference>
+                   <reference key="11"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -679,7 +807,7 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="10"></reference>
+              <reference key="12"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -694,7 +822,7 @@
            <string role="key" value="_id"></string>
            <unicode value="13"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -702,16 +830,16 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Softwre%20utilizado:Home%20Assistant"></string>
+           <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Software%20utilizado:Home%20Assistant"></string>
            <string role="key" value="parent"></string>
-           <reference key="11"></reference>
+           <reference key="13"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="15">
+         <instance class="exe.engine.node.Node" reference="17">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="APIs de los diferntes fabricantes"></unicode>
@@ -720,7 +848,7 @@
            <string role="key" value="_id"></string>
            <unicode value="14"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -728,16 +856,16 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Softwre%20utilizado:APIs%20de%20los%20diferntes%20fabricantes"></string>
+           <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Software%20utilizado:APIs%20de%20los%20diferntes%20fabricantes"></string>
            <string role="key" value="parent"></string>
-           <reference key="11"></reference>
+           <reference key="13"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="16">
+         <instance class="exe.engine.node.Node" reference="18">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Protocolo Zigbee"></unicode>
@@ -746,7 +874,7 @@
            <string role="key" value="_id"></string>
            <unicode value="15"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -754,9 +882,9 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Softwre%20utilizado:Protocolo%20Zigbee"></string>
+           <string value="exe-node:Domotizando%20espacios%20con%20hard%20y%20soft%20libre:Software%20utilizado:Protocolo%20Zigbee"></string>
            <string role="key" value="parent"></string>
-           <reference key="11"></reference>
+           <reference key="13"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -770,35 +898,35 @@
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="4"></reference>
-   <unicode role="key" value="10"></unicode>
-   <reference key="12"></reference>
-   <unicode role="key" value="11"></unicode>
-   <reference key="13"></reference>
-   <unicode role="key" value="12"></unicode>
-   <reference key="14"></reference>
-   <unicode role="key" value="13"></unicode>
-   <reference key="10"></reference>
-   <unicode role="key" value="14"></unicode>
-   <reference key="15"></reference>
-   <unicode role="key" value="15"></unicode>
-   <reference key="16"></reference>
-   <unicode role="key" value="2"></unicode>
-   <reference key="11"></reference>
-   <unicode role="key" value="3"></unicode>
-   <reference key="17"></reference>
-   <unicode role="key" value="4"></unicode>
-   <reference key="18"></reference>
-   <unicode role="key" value="5"></unicode>
-   <reference key="19"></reference>
-   <unicode role="key" value="6"></unicode>
-   <reference key="6"></reference>
-   <unicode role="key" value="7"></unicode>
    <reference key="7"></reference>
-   <unicode role="key" value="8"></unicode>
+   <unicode role="key" value="10"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="11"></unicode>
+   <reference key="15"></reference>
+   <unicode role="key" value="12"></unicode>
+   <reference key="16"></reference>
+   <unicode role="key" value="13"></unicode>
+   <reference key="12"></reference>
+   <unicode role="key" value="14"></unicode>
+   <reference key="17"></reference>
+   <unicode role="key" value="15"></unicode>
+   <reference key="18"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="13"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="19"></reference>
+   <unicode role="key" value="4"></unicode>
    <reference key="20"></reference>
-   <unicode role="key" value="9"></unicode>
+   <unicode role="key" value="5"></unicode>
    <reference key="21"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="8"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="9"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="22"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="23"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -809,7 +937,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="16"></reference>
+  <reference key="3"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -1568,7 +1696,7 @@
   <string role="key" value="resources"></string>
   <dictionary></dictionary>
   <string role="key" value="root"></string>
-  <reference key="5"></reference>
+  <reference key="3"></reference>
   <string role="key" value="scolinks"></string>
   <bool value="0"></bool>
   <string role="key" value="scowsinglepage"></string>
